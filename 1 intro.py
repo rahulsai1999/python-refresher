@@ -28,11 +28,16 @@ print(3 * 'un' + 'ium')
 # lists
 x = [1, 2, 3]
 x.append(4)
+x.pop()
+x.pop(2)
 print(x[1:])
 
 # dictionary
 d = {'key1': 'item1', 'key2': 'item2'}
 print(d['key1'])
+print(d.keys())
+print(d.values())
+print(d.items())
 
 # tuple
 t = (1, 2, 3)
