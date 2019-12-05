@@ -32,6 +32,9 @@ x.pop()
 x.pop(2)
 print(x[1:])
 
+if 2 in x:
+    print("exists")
+
 # dictionary
 d = {'key1': 'item1', 'key2': 'item2'}
 print(d['key1'])
